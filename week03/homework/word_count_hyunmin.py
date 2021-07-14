@@ -4,9 +4,8 @@ path = os.getcwd()
 with open(f'{path}/wiki_python.txt', encoding='utf-8') as f:
     file = f.read()
     words = file.split()
-    
+
 word_count = {}
-count = 0
 
 for word in words:
     if word in word_count:
